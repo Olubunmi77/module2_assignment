@@ -1,0 +1,84 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+   font-size: 40px;
+   margin-bottom: 100px;
+   text-align: center;
+   color: #000;
+   font-weight: 600;
+}
+.section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.section-chicken,.section-beef,.section-sushi{
+    border: 2px solid black;
+    margin-left: 15px;
+    background-color: rgba(105, 104, 104, 0.71);
+    color: rgb(0, 0, 0);
+    padding: 0 15px;
+    font-weight: 400;
+}
+.chicken-menu{
+    position: relative;
+    left: 290px;
+    width: 100%;
+    border: 2px solid #000;
+    padding:0 5px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: #D29682;
+    cursor: pointer;
+}
+.beef-menu{
+    position: relative;
+    left: 335px;
+    width: 100%;
+    border: 2px solid #000;
+    padding:0 5px;
+    text-align: center;
+    font-size: 25px; 
+    text-transform: capitalize;
+    background-color: #9b2b06;
+    color: #fff;
+    cursor: pointer;
+}
+.sushi-menu{
+    position: relative;
+    left: 320px;
+    width: 100%;
+    border: 2px solid #000;
+    padding:0 5px;
+    text-align: center;
+    font-size: 25px; 
+    text-transform: capitalize;
+    background-color: #E1D89F;
+    cursor: pointer;
+}
+@media screen and(max-width:991px){
+    body{
+        width: 721px;
+    }
+}
+@media screen and(max-width:767px){
+    body{
+        width: 700px;
+    }
+}
